@@ -4,7 +4,7 @@ import { GlobalStyle } from './styles/global';
 import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
 
-function App() {
+export function App() {
   return (
     <>
       <GlobalStyle />
@@ -13,5 +13,3 @@ function App() {
     </>
   );
 }
-
-export default App;
