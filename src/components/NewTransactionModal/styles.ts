@@ -48,6 +48,10 @@ export const Container = styled.div`
     &:hover {
       filter: brightness(0.9);
     }
+
+    &:active {
+      background: ${darken(0.1, '#33CC95')};
+    }
   }
 `;
 
